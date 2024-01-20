@@ -193,6 +193,13 @@ button {
 
 .hero-section {
     padding-top: 160px;
+    padding-bottom: 150px;
+    background-image: url(/images/Graphicgraphic.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hero-container{
@@ -200,38 +207,368 @@ display: flex;
 padding: 80px 50px 56px 50px;
 border-radius: 30px;
 background: #1D1D1D;
+position: relative ;
 
 }
 .container {}
 
 .hero-left {}
 
-.hero-left-top {}
+.hero-left-top {
+    margin-bottom: 136px;
+}
 
-.title {}
+.title {
+         color: #FFF; 
+         font-size: 64px;      
+        font-weight: 500;
+        line-height: 1.06;        
+        letter-spacing: -0.04em;
 
-.title-span {}
+        width: 563px;
+        margin-bottom: 20px;
+}
 
-.hero-description {}
+.title-span {
+        color: #BEA69E;        
+        font-size: 64px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.06;
+        letter-spacing: -0.04em;
+}
 
-.hero-left-bottom {}
+.hero-description {
+        color: #FFF;    
+        font-size: 14px;        
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
 
-.hero-reviews-list {}
+        width: 418px;
+}
 
-.hero-reviews-list-item {}
+.hero-left-bottom {
+    display: flex;
+    align-items: center;
+}
 
-.left-bottom-p {}
+.hero-reviews-list {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
 
-.left-bottom-students {}
+.hero-reviews-list-item {
+margin-right: -10px;
+}
 
-.left-bottom-icon-arrow {}
+.hero-reviews-list-item-2{
+margin-right: -10px;
+}
 
-.left-bottom-star {}
+.hero-reviews-list-item-3{
 
-.left-bottom-icon-star {}
+}
 
-.left-bottom-reviews {}
+.left-bottom-p {
+    margin-right: 40px;
+}
 
-.left-botom-span {}
+.left-bottom-students {
+         color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;        
+        letter-spacing: -0.04;
+        width: 82px;
+       
+}
 
-.hero-right-pic {}
+.left-bottom-icon-arrow {
+    fill: white;
+}
+
+.left-bottom-star {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.left-bottom-icon-star {
+    background-color: #BEA69E;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 15px;
+    stroke: black;
+    fill: #BEA69E;
+    
+}
+
+.left-bottom-reviews {
+       color: rgba(255, 255, 255, 0.50);
+        font-size: 16px;
+         font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+}
+
+.left-botom-span {
+       color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25;
+         letter-spacing: -0.04em;
+}
+
+.hero-right-pic {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
+
+
+/* block */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.marquee {
+    overflow: hidden;    
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 1.08;       
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    background-color: #121212;
+}
+
+.marquee-inner {
+    display: flex;
+}
+
+.marquee-line {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    color: #bea69e;
+}
+
+.deco-span {
+    color: #ffffff;
+}
+
+@keyframes marqueeLine {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* 
+about us */
+.about-us {
+    padding-top: 150px;
+   
+}
+
+.container {}
+
+.title-about {
+         color: #FFF;  
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.13;        
+        letter-spacing: -0.04em;
+        margin-bottom: 50px;
+}
+
+.span-about {
+        color: #BEA69E;        
+        font-size: 48px;        
+        font-weight: 500;
+        line-height: 1.13;
+        letter-spacing: -0.04em;
+}
+
+.aboutus-pic-p{
+display: flex;
+justify-content: space-between;
+
+}
+.aboutus-img {
+    
+}
+
+.aboutus-p1 {
+    
+   width: 268px;
+   flex-shrink: 0;
+}
+
+.about-us-p2 {
+    width: 264px;
+    flex-shrink: 0;
+}
+
+
+/* our courses */
+.our-courses{
+    padding-top: 150px;
+}
+
+.our-courses-top {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.our-courses-title {
+    color: #BEA69E;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+
+
+}
+
+
+.our-courses-title-unique {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    padding-right: 6px;
+}
+
+
+.our-courses-description {
+    max-width: 335px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+
+}
+
+
+
+.our-courses-list {
+    padding-left: 0;
+    display: flex;
+}
+
+
+
+.our-courses-list-item {
+    padding: 88px 28px 28px 28px;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+
+
+
+
+
+.last-child {
+    margin-bottom: 0;
+}
+
+.our-courses-list-item-number {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+
+    position: absolute;
+    top: 28px;
+    left: 28px;
+}
+
+
+
+.our-courses-item-link {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+
+    width: 32px;
+    height: 32px;
+
+    background-color: #1D1D1D;
+    border-radius: 50%;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.our-courses-item-link:hover,
+.our-courses-item-link:focus {
+    background-color: #BEA69E;
+}
+
+.our-courses-link-arrow {
+    stroke: #777777;
+    background-color: transparent;
+    flex-shrink: 0;
+}
+
+.our-courses-link-arrow:hover,
+.our-courses-link-arrow:focus {
+    stroke: #FFFFFF;
+}
+
+.our-courses-item-title {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+
+
+}
+
+.our-courses-item-desc {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+
+}
