@@ -66,7 +66,7 @@
         <div class="hero-left">
           <div class="hero-left-top">
         <h1 class="title">
-        Discover the magic of <span class="title-span">photography</span> in <br> our school
+        Discover the magic of&nbsp;<span class="title-span">photography</span>&nbsp;in our&nbsp;school
        </h1>
        <p class="hero-description">Our photography school offers an unforgettable journey, where you can learn the basics of composition, master technical skills, translate your unique ideas.</p>
       </div>
@@ -156,9 +156,9 @@
   </div>
 </section>
      
-
+<!-- About us -->
      
-      <section class="about-us">
+      <section class="about-us section">
       <div class="container">
       <h2 class="title-about">About <span class="span-about">Us</span></h2>
        <div class="aboutus-pic-p">
@@ -177,8 +177,10 @@
       </div>
     </div>
 
+    <!-- Our Courses -->
+
       </section>
-      <section class="our-courses">
+      <section class="our-courses section">
       <div class="container">
            <div class="our-courses-top">
       <h2 class="our-courses-title">
@@ -246,29 +248,248 @@
       </ol>
     </div>
       </div>
-
       </section>
-      <section class="our-mentors">
-      <div class="container">
 
+      <!-- Our Mentors -->
+
+
+      <section class="our-mentors section">
+      <div class="container">
+        <h2 class="mentors-title">Our <span class="mentors-span"> Mentors</span></h2>
+          <ul class="mentors-list">
+          <li class="mentors-list-item">
+             <img
+              srcset="./images/mentors/mentor_@1x.png.png 1x,
+               ./images/mentors/mentor_@2x.png.png 2x"
+                src="./images/mentors/mentor_@1x.png.png"
+                alt="Picture of Emilia Smith"
+                width="180"
+                height="180"
+                class="mentors-image" 
+                loading="lazy"/>
+                <div class="mentors-box">
+            <h3 class="mentors-name">Emilia Smith</h3>
+            <p class="mentors-description">1.5 years of experience</p>
+            </div>
+          </li>
+          <li class="mentors-list-item">
+                <img
+              srcset="./images/mentors/mentor_2@1x.png.png 1x,
+               ./images/mentors/mentor_2@2x.png.png 2x"
+                src="./images/mentors/mentor_2@1x.png.png"
+                alt="Picture of Alex Lebedev"
+                width="180"
+                height="180"
+                class="mentors-image" 
+                loading="lazy"/>
+                <div class="mentors-box">
+            <h3 class="mentors-name">Alex Lebedev</h3>
+            <p class="mentors-description">3.5 years of experience</p>
+            </div>
+          </li>
+          <li class="mentors-list-item">
+                <img
+              srcset="./images/mentors/mentor_3@1x.png.png 1x,
+               ./images/mentors/mentor_3@2x.png.png 2x"
+                src="./images/mentors/mentor_3@1x.png.png"
+                alt="Picture of Mia Dubrovska"
+                width="180"
+                height="180"
+                class="mentors-image" 
+                loading="lazy"/>
+                <div class="mentors-box">
+            <h3 class="mentors-name">Mia Dubrovska</h3>
+            <p class="mentors-description">2.0 years of experience</p>
+            </div>
+          </li>
+          <li class="mentors-list-item">
+               <img
+              srcset="./images/mentors/mentor_4@1x.png.png 1x,
+               ./images/mentors/mentor_4@2x.png.png 2x"
+                src="./images/mentors/mentor_4@1x.png.png"
+                alt="Picture of Eliot Kovalev"
+                width="180"
+                height="180"
+                class="mentors-image" 
+                loading="lazy"/>
+                <div class="mentors-box">
+            <h3 class="mentors-name">Eliot Kovalev</h3>
+            <p class="mentors-description">4.0 years of experience</p>
+            </div>
+          </li>
+        </ul>
       </div>
-
       </section>
-      <section class="sign-up">
-    
-      <div class="container">
 
+      <!-- Sign Up -->
+
+      <section class="sign-up section">    
+      <div class="container conteiner-signup">
+        <div class="signup-left">
+          <h2 class="sign-title">Sign <span class="sign-span">Up</span></h2>
+          <p class="signup-desc">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
+        
+           <form class="form" name="form">
+          <div class="form-div">
+            <label class="form-label" for="user-name"></label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+                minlength="3"
+                required 
+                placeholder="Enter your name"/>              
+            </div>
+          </div>      
+
+          <div class="form-div">
+            <label class="form-label" for="email"></label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                id="email"
+                name="email"
+                type="email"
+                minlength="3"
+                required 
+                placeholder="Enter your email"/>
+             
+            </div>
+          </div>
+
+          <div class="form-div comment">
+            <label class="form-label" for="user-comment"></label>
+            <textarea
+              class="form-input-textarea"
+              id="user-comment"
+              name="user-comment"
+              rows="7"
+              placeholder="Message"
+              required></textarea>
+          </div>
+       
+          <button class="submit-btn" type="submit">Send</button>
+          <p class="privacy-desc">By clicking on “Send” button, you agree to our <a class="privacy-link" href="">Privacy Policy</a>, 
+and allow Promodo to use this information for marketing purposes.</p>
+        </form>
+
+
+
+        </div>
+        <div class="signup-righn">
+          <ul class="signup-list">
+            <li class="signup-list-item1">
+                <img
+              srcset="./images/signup/sign_1@1x.png.png 1x,
+               ./images/signup/sign_1@2x.png.png 2x"
+                src="./images/signup/sign_1@1x.png.png"
+                alt="Picture of Photo"
+                width="150"
+                height="142"
+                class="signup-image1" 
+                loading="lazy"/>
+               
+            </li>
+            <li class="signup-list-item2">
+               <img
+              srcset="./images/signup/sign_@1x.png.png 1x,
+               ./images/signup/sign_@2x.png.png 2x"
+                src="./images/signup/sign_@1x.png.png"
+                alt="Picture of Photo"
+                width="240"
+                height="296"
+                class="signup-image2" 
+                loading="lazy"/>
+               
+            </li>
+          </ul>
+        </div>
       </div>
       </secivon>
-      <section class="reviews">
+
+      <!-- Reviews -->
+
+      <section class="reviews section">
       <div class="container">
-
+        <h2>Reviews</h2>
+        <ul>
+          <li>
+            <div>
+               <img
+              srcset="./images/reviews/reviews_@1x.png.png 1x,
+               ./images/reviews/reviews_@2x.png.png 2x"
+                src="./images/reviews/reviews_@1x.png.png"
+                alt="Picture of Abraham Baker"
+                width="56"
+                height="56"
+                class="review-image" 
+                loading="lazy"/>
+              <h2>Abraham Baker</h2>
+              <p>Student</p>
+              <ul>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+              </ul>
+             
+            </div>
+            <p>I am very pleased that I decided to enroll in photography school. The teachers turned out to be very talented and experienced professionals who share their knowledge and are dedicated to their work. I was able to expand my skills and discover my own style.</p>
+          </li>
+          <li>
+            <div>
+                 <img
+              srcset="./images/reviews/reviews_1@1x.png.png 1x,
+               ./images/reviews/reviews_1@2x.png.png 2x"
+                src="./images/reviews/reviews_1@1x.png.png"
+                alt="Picture of Amanda Lowery"
+                width="56"
+                height="56"
+                class="review-image" 
+                loading="lazy"/>
+              <h2>Amanda Lowery</h2>
+              <p>Student</p>
+               <ul>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+                <li>  <svg class="reviews-svg" width="20" height="20">
+              <use href="./images/icons.svg#icon-star"></use>
+            </svg></li>
+              </ul>
+              <svg></svg>
+            </div>
+            <p>The courses at the photography school exceeded all my expectations. I gained not only technical knowledge, but also inspiration and motivation to reach new heights in my creativity. Hands-on classes and workshops helped me understand different styles of photography.</p>
+          </li>
+        </ul>
       </div>
-
       </section>
     </main>
 
     <!-- Footer -->
+
     <footer class="footer">
     <div class="container">
 
