@@ -10,621 +10,688 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,700&family=Montserrat:ital@0;1&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="body">
-
-    <!-- Header section -->
+  <body>
     <header class="header">
-    <div class="container header-container">
-      <div class="logo-nav"> 
-        <a class="logo" href="index.html">
-          <svg class="header-logo-icon" width="123" height="16">
+      <div class="container header-container">
+        <div class="logo-nav">
+          <a class="logo" href="index.html">
+            <svg class="header-logo-icon" width="123" height="16">
               <use href="./images/icons.svg#logo"></use>
-            </svg>        
-        </a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-list-item" >
-              <a href="#about_us">About us</a>
-            
-            </li>
-            <li class="nav-list-item" >
-              <a href="#our_courses">Our courses</a>
-            
-            </li>
-            <li class="nav-list-item" >
-              <a href="#our_mentors">Our mentors</a>
-            
-            </li>
-            <li class="nav-list-item">
-              <a href="#reviews">Reviews</a>
-            
-            </li>
-            <li class="nav-list-item" >
-              <a href="#contacts">contacts</a>
-            
-            </li>
-          </ul>
-        </nav>
+            </svg>
+          </a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a href="#about_us">About us</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#our_courses">Our courses</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#our_mentors">Our mentors</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#contacts">contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <button class="header-btn" type="button" aria-label="Open menu button">
+          sign up
+        </button>
       </div>
-      <button class="header-btn" type="button" aria-label="Open menu button">sign up</button>
-     
-    </div>
-      </header>
+    </header>
 
     <!-- Unique content -->
     <main>
       <!-- Hero Section -->
       <section class="hero-section">
-      <div class="container hero-container">
-        <div class="hero-left">
-          <div class="hero-left-top">
-        <h1 class="title">
-        Discover the magic of&nbsp;<span class="title-span">photography</span>&nbsp;in our&nbsp;school
-       </h1>
-       <p class="hero-description">Our photography school offers an unforgettable journey, where you can learn the basics of composition, master technical skills, translate your unique ideas.</p>
-      </div>
-      <div class="hero-left-bottom">
-        <ul class="hero-reviews-list">
-          <li class="hero-reviews-list-item">
-             <img
-              srcset="./images/hero/girl_1@1x.png.png 1x,
-               ./images/hero/girl_1@2x.png.png 2x"
-                src="./images/hero/girl_1@1x.png.png"
-                alt="Picture hero list"
-                width="54"
-                height="54"
-                class="hero-left-pic-1" 
-                loading="lazy"/>  
-            
-          </li>
-          <li class="hero-reviews-list-item-2">
-               <img
-              srcset="./images/hero/boy_1@1x.png.png 1x,
-               ./images/hero/boy_1@2x.png.png 2x"
-                src="./images/hero/boy_1@1x.png.png"
-                alt="Picture hero list"
-                width="54"
-                height="54"
-                class="hero-left-pic-2" 
-                loading="lazy"/>  
-           
-          </li>
-          <li class="hero-reviews-list-item-3">
-                <img
-              srcset="./images/hero/girl_@1x.png.png 1x,
-               ./images/hero/girl_@2x.png.png 2x"
-                src="./images/hero/girl_@1x.png.png"
-                alt="Picture hero list"
-                width="54"
-                height="54"
-                class="hero-left-pic-3" 
-                loading="lazy"/>  
-           
-          </li>
-        </ul>
-        <div class="left-bottom-p">
-        <p class="left-bottom-students">Our happy students</p>
-        <a href="#reviews"><svg class="left-bottom-icon-arrow" width="25" height="15">
-              <use href="./images/icons.svg#icon-Arrow-2-Stroke"></use>
-            </svg>
-            </a>
-         
+        <div class="container hero-container">
+          <div class="hero-left">
+            <div class="hero-left-top">
+              <h1 class="title">
+                Discover the magic of&nbsp;<span class="title-span"
+                  >photography</span
+                >&nbsp;in our&nbsp;school
+              </h1>
+              <p class="hero-description">
+                Our photography school offers an unforgettable journey, where
+                you can learn the basics of composition, master technical
+                skills, translate your unique ideas.
+              </p>
+            </div>
+            <div class="hero-left-bottom">
+              <ul class="hero-reviews-list">
+                <li class="hero-reviews-list-item">
+                  <img
+                    srcset="
+                      ./images/hero/girl_1@1x.png.png 1x,
+                      ./images/hero/girl_1@2x.png.png 2x
+                    "
+                    src="./images/hero/girl_1@1x.png.png"
+                    alt="Picture hero list"
+                    width="54"
+                    height="54"
+                    class="hero-left-pic-1"
+                    loading="lazy"
+                  />
+                </li>
+                <li class="hero-reviews-list-item-2">
+                  <img
+                    srcset="
+                      ./images/hero/boy_1@1x.png.png 1x,
+                      ./images/hero/boy_1@2x.png.png 2x
+                    "
+                    src="./images/hero/boy_1@1x.png.png"
+                    alt="Picture hero list"
+                    width="54"
+                    height="54"
+                    class="hero-left-pic-2"
+                    loading="lazy"
+                  />
+                </li>
+                <li class="hero-reviews-list-item-3">
+                  <img
+                    srcset="
+                      ./images/hero/girl_@1x.png.png 1x,
+                      ./images/hero/girl_@2x.png.png 2x
+                    "
+                    src="./images/hero/girl_@1x.png.png"
+                    alt="Picture hero list"
+                    width="54"
+                    height="54"
+                    class="hero-left-pic-3"
+                    loading="lazy"
+                  />
+                </li>
+              </ul>
+              <div class="left-bottom-p">
+                <p class="left-bottom-students">Our happy students</p>
+                <a href="#reviews"
+                  ><svg class="left-bottom-icon-arrow" width="25" height="15">
+                    <use href="./images/icons.svg#icon-Arrow-2-Stroke"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="left-bottom-star">
+                <svg class="left-bottom-icon-star" width="20" height="20">
+                  <use href="./images/icons.svg#icon-star"></use>
+                </svg>
+                <p class="left-bottom-reviews">
+                  Reviews<br /><span class="left-botom-span">+1500</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-right-pic">
+            <img
+              srcset="
+                ./images/hero/hero_@1x.png.png 1x,
+                ./images/hero/hero_@2x.png.png 2x
+              "
+              src="./images/hero/hero_@1x.png.png"
+              alt="Picture hero main"
+              width="397"
+              height="520"
+              class="hero-right-pic-img"
+              loading="lazy"
+            />
+          </div>
         </div>
-        <div class="left-bottom-star">
-          <svg class="left-bottom-icon-star" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-            <p class="left-bottom-reviews">Reviews<br><span class="left-botom-span">+1500</span></p>
-        </div>
-
-      </div>
-      </div>
-      <div class="hero-right-pic">
-        <img
-              srcset="./images/hero/hero_@1x.png.png 1x,
-               ./images/hero/hero_@2x.png.png 2x"
-                src="./images/hero/hero_@1x.png.png"
-                alt="Picture hero main"
-                width="397"
-                height="520"
-                class="hero-right-pic-img" 
-                loading="lazy"/>        
-      </div>
-      </div>
       </section>
 
-<!-- Block -->
-     
-     
-       <section class="section-block">
-  <div class="marquee">
-    <div class="marquee-inner">
-      <h3 class="marquee-line">
-        Master <span class="deco-span">your photography</span>
-        skills with us!
-      </h3>
-      <h3 class="marquee-line">
-        Master <span class="deco-span">your photography</span>
-        skills with us!
-      </h3>
-    </div>
-  </div>
-</section>
-     
-<!-- About us -->
-     
+      <!-- Block -->
+
+      <section class="section-block">
+        <div class="marquee">
+          <div class="marquee-inner">
+            <h3 class="marquee-line">
+              Master <span class="deco-span">your photography</span>
+              skills with us!
+            </h3>
+            <h3 class="marquee-line">
+              Master <span class="deco-span">your photography</span>
+              skills with us!
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- About us -->
+
       <section class="about-us section" id="about_us">
-      <div class="container">
-      <h2 class="title-about">About <span class="span-about">Us</span></h2>
-       <div class="aboutus-pic-p">
-        <img
-              srcset="./images/about us/aboutus_@1x.png.png 1x,
-               ./images/about us/aboutus_@2x.png.png 2x"
-                src="./images/about us/aboutus_@1x.png.png"
-                alt="Picture about us"
-                width="488"
-                height="260"
-                class="aboutus-img" 
-                loading="lazy"/> 
-     
-      <p class="aboutus-p1">Our photography school is designed to teach you everything you need to know about this magical art. Regardless of your experience or skill level, we offer a wide range of courses to suit your needs and interests. Our teaching team consists of experienced photographers who have many years of experience in this field. They strive not only to share their knowledge, but also to inspire you to develop and express your unique creativity.</p>
-      <p class="about-us-p2">Our courses cover a wide range of topics, from the basics of photography and equipment use to professional image processing and creating impressive compositions. You will have the opportunity to learn the technical aspects of photography, discover your own style and develop your own visual language.</p>
-      </div>
-    </div>
+        <div class="container">
+          <h2 class="title-about">About <span class="span-about">Us</span></h2>
+          <div class="aboutus-pic-p">
+            <img
+              srcset="
+                ./images/about_us/aboutus_@1x.png.png 1x,
+                ./images/about_us/aboutus_@2x.png.png 2x
+              "
+              src="./images/about_us/aboutus_@1x.png.png"
+              alt="Picture about us"
+              width="488"
+              height="260"
+              class="aboutus-img"
+              loading="lazy"
+            />
 
-    <!-- Our Courses -->
+            <p class="aboutus-p1">
+              Our photography school is designed to teach you everything you
+              need to know about this magical art. Regardless of your experience
+              or skill level, we offer a wide range of courses to suit your
+              needs and interests. Our teaching team consists of experienced
+              photographers who have many years of experience in this field.
+              They strive not only to share their knowledge, but also to inspire
+              you to develop and express your unique creativity.
+            </p>
+            <p class="about-us-p2">
+              Our courses cover a wide range of topics, from the basics of
+              photography and equipment use to professional image processing and
+              creating impressive compositions. You will have the opportunity to
+              learn the technical aspects of photography, discover your own
+              style and develop your own visual language.
+            </p>
+          </div>
+        </div>
 
+        <!-- Our Courses -->
       </section>
-      <section class="our-courses section" id="our_courses" >
-      <div class="container">
-           <div class="our-courses-top">
-      <h2 class="our-courses-title">
-        <span class="our-courses-title-unique">Our</span>Courses
-      </h2>
-      <p class="our-courses-description">
-        At our photography school, we offer a variety of courses that cover all
-        aspects of this fascinating art. Regardless of your experience or skill
-        level, we have courses to suit your needs and goals.
-      </p>
-    </div>
-    <div class="our-courses-bottom">
-      <ol class="our-courses-list">
-        <li class="our-courses-list-item">
-          <p class="our-courses-list-item-number">01</p>
-          <a class="our-courses-item-link" href="#sign_up">
-            <svg class="our-courses-link-arrow" width="20" height="20">
-              <use href="./images/icons.svg#icon-arrow"></use>
-            </svg>
-          </a>
-          <h3 class="our-courses-item-title" style="margin-bottom: 164px">
-            Basics of <br />
-            photography
-          </h3>
-          <p class="our-courses-item-desc">
-            During this course, you will be able to <br />
-            familiarize yourself with different types of <br />
-            cameras, learn the basics of composition.
-          </p>
-        </li>
-        <li class="our-courses-list-item">
-          <p class="our-courses-list-item-number">02</p>
-          <a class="our-courses-item-link" href="#sign_up">
-            <svg class="our-courses-link-arrow" width="20" height="20">
-              <use href="./images/icons.svg#icon-arrow"></use>
-            </svg>
-          </a>
-          <h3 class="our-courses-item-title" style="margin-bottom: 164px">
-            Landscape <br />
-            photography
-          </h3>
-          <p class="our-courses-item-desc">
-            In this course, you'll learn how to choose the <br />
-            right angles, frame landscapes, and create <br />
-            depth and perspective in your images.
-          </p>
-        </li>
-        <li class="our-courses-list-item last-child">
-          <p class="our-courses-list-item-number">03</p>
-          <a class="our-courses-item-link" href="#sign_up">
-            <svg class="our-courses-link-arrow" width="20" height="20">
-              <use href="./images/icons.svg#icon-arrow"></use>
-            </svg>
-          </a>
-          <h3 class="our-courses-item-title" style="margin-bottom: 164px">
-            Portrait <br />
-            photography
-          </h3>
-          <p class="our-courses-item-desc">
-            During this course, you will learn to choose <br />
-            the right lighting, reproduce the mood and <br />
-            expressions on the faces of the models.
-          </p>
-        </li>
-      </ol>
-    </div>
-      </div>
+      <section class="our-courses section" id="our_courses">
+        <div class="container">
+          <div class="our-courses-top">
+            <h2 class="our-courses-title">
+              <span class="our-courses-title-unique">Our</span>Courses
+            </h2>
+            <p class="our-courses-description">
+              At our photography school, we offer a variety of courses that
+              cover all aspects of this fascinating art. Regardless of your
+              experience or skill level, we have courses to suit your needs and
+              goals.
+            </p>
+          </div>
+          <div class="our-courses-bottom">
+            <ol class="our-courses-list">
+              <li class="our-courses-list-item">
+                <p class="our-courses-list-item-number">01</p>
+                <a class="our-courses-item-link" href="#sign_up">
+                  <svg class="our-courses-link-arrow" width="20" height="20">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </a>
+                <h3 class="our-courses-item-title" style="margin-bottom: 164px">
+                  Basics of <br />
+                  photography
+                </h3>
+                <p class="our-courses-item-desc">
+                  During this course, you will be able to <br />
+                  familiarize yourself with different types of <br />
+                  cameras, learn the basics of composition.
+                </p>
+              </li>
+              <li class="our-courses-list-item">
+                <p class="our-courses-list-item-number">02</p>
+                <a class="our-courses-item-link" href="#sign_up">
+                  <svg class="our-courses-link-arrow" width="20" height="20">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </a>
+                <h3 class="our-courses-item-title" style="margin-bottom: 164px">
+                  Landscape <br />
+                  photography
+                </h3>
+                <p class="our-courses-item-desc">
+                  In this course, you'll learn how to choose the <br />
+                  right angles, frame landscapes, and create <br />
+                  depth and perspective in your images.
+                </p>
+              </li>
+              <li class="our-courses-list-item last-child">
+                <p class="our-courses-list-item-number">03</p>
+                <a class="our-courses-item-link" href="#sign_up">
+                  <svg class="our-courses-link-arrow" width="20" height="20">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </a>
+                <h3 class="our-courses-item-title" style="margin-bottom: 164px">
+                  Portrait <br />
+                  photography
+                </h3>
+                <p class="our-courses-item-desc">
+                  During this course, you will learn to choose <br />
+                  the right lighting, reproduce the mood and <br />
+                  expressions on the faces of the models.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
       </section>
 
       <!-- Our Mentors -->
 
-
-      <section class="our-mentors section" id="our_mentors" >
-      <div class="container">
-        <h2 class="mentors-title">Our <span class="mentors-span"> Mentors</span></h2>
+      <section class="our-mentors section" id="our_mentors">
+        <div class="container">
+          <h2 class="mentors-title">
+            Our <span class="mentors-span"> Mentors</span>
+          </h2>
           <ul class="mentors-list">
-          <li class="mentors-list-item">
-             <img
-              srcset="./images/mentors/mentor_@1x.png.png 1x,
-               ./images/mentors/mentor_@2x.png.png 2x"
+            <li class="mentors-list-item">
+              <img
+                srcset="
+                  ./images/mentors/mentor_@1x.png.png 1x,
+                  ./images/mentors/mentor_@2x.png.png 2x
+                "
                 src="./images/mentors/mentor_@1x.png.png"
                 alt="Picture of Emilia Smith"
                 width="180"
                 height="180"
-                class="mentors-image" 
-                loading="lazy"/>
-                <div class="mentors-box">
-            <h3 class="mentors-name">Emilia Smith</h3>
-            <p class="mentors-description">1.5 years of experience</p>
-            </div>
-          </li>
-          <li class="mentors-list-item">
-                <img
-              srcset="./images/mentors/mentor_2@1x.png.png 1x,
-               ./images/mentors/mentor_2@2x.png.png 2x"
+                class="mentors-image"
+                loading="lazy"
+              />
+              <div class="mentors-box">
+                <h3 class="mentors-name">Emilia Smith</h3>
+                <p class="mentors-description">1.5 years of experience</p>
+              </div>
+            </li>
+            <li class="mentors-list-item">
+              <img
+                srcset="
+                  ./images/mentors/mentor_2@1x.png.png 1x,
+                  ./images/mentors/mentor_2@2x.png.png 2x
+                "
                 src="./images/mentors/mentor_2@1x.png.png"
                 alt="Picture of Alex Lebedev"
                 width="180"
                 height="180"
-                class="mentors-image" 
-                loading="lazy"/>
-                <div class="mentors-box">
-            <h3 class="mentors-name">Alex Lebedev</h3>
-            <p class="mentors-description">3.5 years of experience</p>
-            </div>
-          </li>
-          <li class="mentors-list-item">
-                <img
-              srcset="./images/mentors/mentor_3@1x.png.png 1x,
-               ./images/mentors/mentor_3@2x.png.png 2x"
+                class="mentors-image"
+                loading="lazy"
+              />
+              <div class="mentors-box">
+                <h3 class="mentors-name">Alex Lebedev</h3>
+                <p class="mentors-description">3.5 years of experience</p>
+              </div>
+            </li>
+            <li class="mentors-list-item">
+              <img
+                srcset="
+                  ./images/mentors/mentor_3@1x.png.png 1x,
+                  ./images/mentors/mentor_3@2x.png.png 2x
+                "
                 src="./images/mentors/mentor_3@1x.png.png"
                 alt="Picture of Mia Dubrovska"
                 width="180"
                 height="180"
-                class="mentors-image" 
-                loading="lazy"/>
-                <div class="mentors-box">
-            <h3 class="mentors-name">Mia Dubrovska</h3>
-            <p class="mentors-description">2.0 years of experience</p>
-            </div>
-          </li>
-          <li class="mentors-list-item">
-               <img
-              srcset="./images/mentors/mentor_4@1x.png.png 1x,
-               ./images/mentors/mentor_4@2x.png.png 2x"
+                class="mentors-image"
+                loading="lazy"
+              />
+              <div class="mentors-box">
+                <h3 class="mentors-name">Mia Dubrovska</h3>
+                <p class="mentors-description">2.0 years of experience</p>
+              </div>
+            </li>
+            <li class="mentors-list-item">
+              <img
+                srcset="
+                  ./images/mentors/mentor_4@1x.png.png 1x,
+                  ./images/mentors/mentor_4@2x.png.png 2x
+                "
                 src="./images/mentors/mentor_4@1x.png.png"
                 alt="Picture of Eliot Kovalev"
                 width="180"
                 height="180"
-                class="mentors-image" 
-                loading="lazy"/>
-                <div class="mentors-box">
-            <h3 class="mentors-name">Eliot Kovalev</h3>
-            <p class="mentors-description">4.0 years of experience</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+                class="mentors-image"
+                loading="lazy"
+              />
+              <div class="mentors-box">
+                <h3 class="mentors-name">Eliot Kovalev</h3>
+                <p class="mentors-description">4.0 years of experience</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Sign Up -->
 
-      <section class="sign-up section" id="sign_up">    
-      <div class="container conteiner-signup">
-        <div class="signup-left">
-          <h2 class="sign-title">Sign <span class="sign-span">Up</span></h2>
-          <p class="signup-desc">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
-        
-           <form class="form" name="form">
-          <div class="form-div">
-            <label class="form-label" for="user-name"></label>
-            <div class="form-field">
-              <input
-                class="form-input"
-                id="user-name"
-                name="user-name"
-                type="text"
-                minlength="3"
-                required 
-                placeholder="Enter your name"/>              
-            </div>
-          </div>      
+      <section class="sign-up section" id="sign_up">
+        <div class="container conteiner-signup">
+          <div class="signup-left">
+            <h2 class="sign-title">Sign <span class="sign-span">Up</span></h2>
+            <p class="signup-desc">
+              Please use the form below to contact us. Enter your name, email,
+              and message and we'll get back to you shortly.
+            </p>
 
-          <div class="form-div">
-            <label class="form-label" for="email"></label>
-            <div class="form-field">
-              <input
-                class="form-input"
-                id="email"
-                name="email"
-                type="email"
-                minlength="3"
-                required 
-                placeholder="Enter your email"/>
-             
-            </div>
+            <form class="form" name="form">
+              <div class="form-div">
+                <label class="form-label" for="user-name"></label>
+                <div class="form-field">
+                  <input
+                    class="form-input"
+                    id="user-name"
+                    name="user-name"
+                    type="text"
+                    minlength="3"
+                    required
+                    placeholder="Enter your name"
+                  />
+                </div>
+              </div>
+
+              <div class="form-div">
+                <label class="form-label" for="email"></label>
+                <div class="form-field">
+                  <input
+                    class="form-input"
+                    id="email"
+                    name="email"
+                    type="email"
+                    minlength="3"
+                    required
+                    placeholder="Enter your email"
+                  />
+                </div>
+              </div>
+
+              <div class="form-div comment">
+                <label class="form-label" for="user-comment"></label>
+                <textarea
+                  class="form-input-textarea"
+                  id="user-comment"
+                  name="user-comment"
+                  rows="7"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <button class="submit-btn" type="submit">Send</button>
+              <p class="privacy-desc">
+                By clicking on “Send” button, you agree to our
+                <a class="privacy-link" href="">Privacy Policy</a>, and allow
+                Promodo to use this information for marketing purposes.
+              </p>
+            </form>
           </div>
-
-          <div class="form-div comment">
-            <label class="form-label" for="user-comment"></label>
-            <textarea
-              class="form-input-textarea"
-              id="user-comment"
-              name="user-comment"
-              rows="7"
-              placeholder="Message"
-              required></textarea>
-          </div>
-       
-          <button class="submit-btn" type="submit">Send</button>
-          <p class="privacy-desc">By clicking on “Send” button, you agree to our <a class="privacy-link" href="">Privacy Policy</a>, 
-and allow Promodo to use this information for marketing purposes.</p>
-        </form>
-
-
-
-        </div>
-        <div class="signup-righn">
-          <ul class="signup-list">
-            <li class="signup-list-item1">
+          <div class="signup-righn">
+            <ul class="signup-list">
+              <li class="signup-list-item1">
                 <img
-              srcset="./images/signup/sign_1@1x.png.png 1x,
-               ./images/signup/sign_1@2x.png.png 2x"
-                src="./images/signup/sign_1@1x.png.png"
-                alt="Picture of Photo"
-                width="150"
-                height="142"
-                class="signup-image1" 
-                loading="lazy"/>
-               
-            </li>
-            <li class="signup-list-item2">
-               <img
-              srcset="./images/signup/sign_@1x.png.png 1x,
-               ./images/signup/sign_@2x.png.png 2x"
-                src="./images/signup/sign_@1x.png.png"
-                alt="Picture of Photo"
-                width="240"
-                height="296"
-                class="signup-image2" 
-                loading="lazy"/>
-               
-            </li>
-          </ul>
+                  srcset="
+                    ./images/signup/sign_1@1x.png.png 1x,
+                    ./images/signup/sign_1@2x.png.png 2x
+                  "
+                  src="./images/signup/sign_1@1x.png.png"
+                  alt="Picture of Photo"
+                  width="150"
+                  height="142"
+                  class="signup-image1"
+                  loading="lazy"
+                />
+              </li>
+              <li class="signup-list-item2">
+                <img
+                  srcset="
+                    ./images/signup/sign_@1x.png.png 1x,
+                    ./images/signup/sign_@2x.png.png 2x
+                  "
+                  src="./images/signup/sign_@1x.png.png"
+                  alt="Picture of Photo"
+                  width="240"
+                  height="296"
+                  class="signup-image2"
+                  loading="lazy"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      </secivon>
+      </section>
 
       <!-- Reviews -->
 
       <section class="reviews section" id="reviews">
-      <div class="container">
-        <h2 class="reviews-title">Reviews</h2>        
+        <div class="container">
+          <h2 class="reviews-title">Reviews</h2>
           <div class="reviews-boxes">
             <div class="reviews-box">
-               <div class="reviews-div-img">
-              <img
-              srcset="./images/reviews/reviews_@1x.png.png 1x,
-               ./images/reviews/reviews_@2x.png.png 2x"
-                src="./images/reviews/reviews_@1x.png.png"
-                alt="Picture of Abraham Baker"
-                width="56"
-                height="56"
-                class="review-image" 
-                loading="lazy"/>
+              <div class="reviews-div-img">
+                <img
+                  srcset="
+                    ./images/reviews/reviews_@1x.png.png 1x,
+                    ./images/reviews/reviews_@2x.png.png 2x
+                  "
+                  src="./images/reviews/reviews_@1x.png.png"
+                  alt="Picture of Abraham Baker"
+                  width="56"
+                  height="56"
+                  class="review-image"
+                  loading="lazy"
+                />
                 <div class="reviews-h-p">
-              <h3 class="reviews-name" >Abraham Baker</h3>
-              <p class="reviews-position">Student</p>
-              </div>
+                  <h3 class="reviews-name">Abraham Baker</h3>
+                  <p class="reviews-position">Student</p>
+                </div>
               </div>
               <ul class="reviews-list">
-                <li class="reviews-list-item"> 
-                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item">  
+                <li class="reviews-list-item">
                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item">  
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item">  
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item ">  <svg class="reviews-svg last-child" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
+                  <svg class="reviews-svg" width="20" height="20">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
+                  <svg class="reviews-svg last-child" width="20" height="20">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
               </ul>
-             
-           
-            <p class="reviews-description">I am very pleased that I decided to enroll in photography school. The teachers turned out to be very talented and experienced professionals who share their knowledge and are dedicated to their work. I was able to expand my skills and discover my own style.</p>
+
+              <p class="reviews-description">
+                I am very pleased that I decided to enroll in photography
+                school. The teachers turned out to be very talented and
+                experienced professionals who share their knowledge and are
+                dedicated to their work. I was able to expand my skills and
+                discover my own style.
+              </p>
             </div>
             <div class="reviews-box">
               <div class="reviews-div-img">
-                 <img
-              srcset="./images/reviews/reviews_1@1x.png.png 1x,
-               ./images/reviews/reviews_1@2x.png.png 2x"
-                src="./images/reviews/reviews_1@1x.png.png"
-                alt="Picture of Amanda Lowery"
-                width="56"
-                height="56"
-                class="review-image" 
-                loading="lazy"/>
+                <img
+                  srcset="
+                    ./images/reviews/reviews_1@1x.png.png 1x,
+                    ./images/reviews/reviews_1@2x.png.png 2x
+                  "
+                  src="./images/reviews/reviews_1@1x.png.png"
+                  alt="Picture of Amanda Lowery"
+                  width="56"
+                  height="56"
+                  class="review-image"
+                  loading="lazy"
+                />
                 <div class="reviews-h-p">
-              <h3 class="reviews-name">Amanda Lowery</h3>
-              <p class="reviews-position">Student</p>
+                  <h3 class="reviews-name">Amanda Lowery</h3>
+                  <p class="reviews-position">Student</p>
+                </div>
               </div>
-              </div>
-               <ul class="reviews-list">
-                <li class="reviews-list-item"> 
-                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item">  
+              <ul class="reviews-list">
+                <li class="reviews-list-item">
                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item">  
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item">  
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
                   <svg class="reviews-svg" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
-                <li class="reviews-list-item ">  <svg class="reviews-svg last-child" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </li>
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
+                  <svg class="reviews-svg" width="20" height="20">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="reviews-list-item">
+                  <svg class="reviews-svg last-child" width="20" height="20">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
               </ul>
-            
-            <p class="reviews-description">The courses at the photography school exceeded all my expectations. I gained not only technical knowledge, but also inspiration and motivation to reach new heights in my creativity. Hands-on classes and workshops helped me understand different styles of photography.</p>
+
+              <p class="reviews-description">
+                The courses at the photography school exceeded all my
+                expectations. I gained not only technical knowledge, but also
+                inspiration and motivation to reach new heights in my
+                creativity. Hands-on classes and workshops helped me understand
+                different styles of photography.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
       </section>
     </main>
 
     <!-- Footer -->
 
     <footer class="footer" id="contacts">
-    <div class="container">
-     <div class="footer-top">
-     <div class="footer-address">
-      <a class="logo footer-logo" href="index.html">
-          <svg class="header-logo-icon footer-icon" width="123" height="16">
-              <use href="./images/icons.svg#logo"></use>
-            </svg>        
-        </a>
-           <address class="address">
-          <ul class="address-list">           
-            <li class="adress-list-item">
-              <a href="tel: +380665438912" class="address-item-phone"
-                >UA: +38 066 543 8912
-              </a>
-            </li>
-            <li class="address-item-address"><p>Ukraine, Kyiv</p></li>
-          </ul>
-        </address>
-     </div>
-     <div class="footer-socials">
-      <ul class="footer-socials-list">
-        <li class="footer-socials-item">
-          <a  class="socials-link"
-              href="https://instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram site">Instagram
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-address">
+            <a class="logo footer-logo" href="index.html">
+              <svg class="header-logo-icon footer-icon" width="123" height="16">
+                <use href="./images/icons.svg#logo"></use>
+              </svg>
             </a>
-          </li>
-        <li class="footer-socials-item">
-          <a  class="socials-link"
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook site">Facebook
-            </a>
-          </li>
-        <li class="footer-socials-item">
-          <a  class="socials-link"
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Youtube site">Youtube
-            </a>
-          </li>
-      </ul>
-     </div>
-     <div class="footer-nav">
-      <nav class="nav-footer">
-          <ul class="footer-nav-list">
-            <li class="footer-nav-list-item" >
-              <a href="#about_us">About us</a>
-            
-            </li>
-            <li class="footer-nav-list-item" >
-              <a href="#our_courses">Our courses</a>
-            
-            </li>
-            <li class="footer-nav-list-item" >
-              <a href="#our_mentors">Our mentors</a>
-            
-            </li>
-            <li class="footer-nav-list-item">
-              <a href="#reviews">Reviews</a>
-            
-            </li>
-            <li class="footer-nav-list-item" >
-              <a href="#contacts">contacts</a>
-            
-            </li>
-          </ul>
-        </nav>
-     </div>
-     <div class="footer-form">
-       <form class="footer-form" name="footer-form">
-         
-
-          <div class="footer-form-div">
-            <label class="form-label" for="email"></label>
-            <div class="footer-form-field">
-              <input
-                class="footer-form-input"
-                id="email"
-                name="email"
-                type="email"
-                minlength="3"
-                required 
-                placeholder="Enter your email"/>
-             
-            </div>
+            <address class="address">
+              <ul class="address-list">
+                <li class="adress-list-item">
+                  <a href="tel:+380665438912" class="address-item-phone"
+                    >UA: +38 066 543 8912
+                  </a>
+                </li>
+                <li class="address-item-address"><p>Ukraine, Kyiv</p></li>
+              </ul>
+            </address>
           </div>
-              
-          <button class="footer-submit-btn" type="submit">GO</button>
-          
-        </form>
+          <div class="footer-socials">
+            <ul class="footer-socials-list">
+              <li class="footer-socials-item">
+                <a
+                  class="socials-link"
+                  href="https://instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram site"
+                  >Instagram
+                </a>
+              </li>
+              <li class="footer-socials-item">
+                <a
+                  class="socials-link"
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook site"
+                  >Facebook
+                </a>
+              </li>
+              <li class="footer-socials-item">
+                <a
+                  class="socials-link"
+                  href="https://youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Youtube site"
+                  >Youtube
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <nav class="nav-footer">
+              <ul class="footer-nav-list">
+                <li class="footer-nav-list-item">
+                  <a href="#about_us">About us</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="#our_courses">Our courses</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="#our_mentors">Our mentors</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="#reviews">Reviews</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="#contacts">contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-form">
+            <form class="footer-form" name="footer-form">
+              <div class="footer-form-div">
+                <label class="form-label" for="email"></label>
+                <div class="footer-form-field">
+                  <input
+                    class="footer-form-input"
+                    id="footer-email"
+                    name="footer-email"
+                    type="email"
+                    minlength="3"
+                    required
+                    placeholder="Enter your email"
+                  />
+                </div>
+              </div>
 
-     </div>
-     </div>
-     <div class="footer-botom">
-      <div class="footer-policy">
-        <a class="footer-policy-link" href="">Privacy Policy <br> Public Offering Agreement</a>
-       
+              <button class="footer-submit-btn" type="submit">GO</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-botom">
+          <div class="footer-policy">
+            <a class="footer-policy-link" href=""
+              >Privacy Policy <br />
+              Public Offering Agreement</a
+            >
+          </div>
+          <div class="footer-sign">
+            <p class="footer-sign-p">
+              2023 Focus Frame <br />
+              © All rights reserved
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="footer-sign">
-        <p class="footer-sign-p">2023 Focus Frame <br> © All rights reserved</p>
-      </div>
-     </div>
-    </div>
-
     </footer>
   </body>
 </html>
